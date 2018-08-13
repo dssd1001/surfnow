@@ -1,39 +1,32 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/cnvs/assets/master/logo.png" width="240">
-</p>
-<p align="center">
-    <a href="https://travis-ci.org/cnvs/canvas"><img src="https://travis-ci.org/cnvs/canvas.svg?branch=master" alt="Build Status"></a>
-    <a href="https://styleci.io/repos/52815899"><img src="https://styleci.io/repos/52815899/shield?style=flat&branch=master" alt="StyleCI"></a>
-    <a href="https://packagist.org/packages/cnvs/easel"><img src="https://poser.pugx.org/cnvs/easel/downloads" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/cnvs/easel"><img src="https://poser.pugx.org/cnvs/easel/v/stable" alt="Latest Stable Version"></a>
-    <a href="https://github.com/cnvs/canvas/blob/master/license"><img src="https://poser.pugx.org/cnvs/canvas/license" alt="License"></a>
-</p>
+# SurfNow
 
-## About Canvas
+## Purpose
 
-[Canvas](https://cnvs.io) is a simple, powerful blog publishing platform that lets you to share your stories with the world. Its beautifully designed interface and completely customizable framework allows you to create and publish your own blog, giving you tools that make it easy and even fun to do. Canvas includes some of the most popular web packages today, such as:
+To tell where to surf NOW
 
-* [Google Material Design](https://material.google.com).
-* [SimpleMDE](https://simplemde.com) for markdown publishing.
-* Syntax highlighting by [PrismJS](http://prismjs.com).
-* Full-site searching by [TNTSearch](https://github.com/teamtnt/laravel-scout-tntsearch-driver).
-* Native [Google Analytics](https://www.google.com/analytics/#?modal_active=none) integration.
-* Powered by [Laravel 5](https://laravel.com).
+## Data Sources
 
-Not quite sure if Canvas is the right tool for you? That's no problem. We've got a live demo at [http://demo.cnvs.io](http://demo.cnvs.io) where you can experience it for yourself. Login credentials for the demo are `admin@cnvs.io` and `password`.
+#### NOAA
 
-## Canvas Sponsors
+[NOAA.gov](noaa.gov)
 
-Canvas is an MIT-licensed open source project. Its ongoing development is made possible thanks to the support by these awesome [backers](https://github.com/cnvs/canvas/blob/develop/backers.md). If you are interested in becoming a sponsor, please visit the [Canvas Patreon page](https://www.patreon.com/canvas).
+#### SURFLINE
+Request structure: `http://api.surfline.com/v1/forecasts/<spot_id>?params`
 
-## Contributing
+Available querystring params:
 
-Thank you for considering contributing to Canvas! The contribution guide can be found in the [Canvas documentation](https://cnvs.readme.io/docs/contributing).
+Param|Values|Effect
+-----|------|------
+spot_id|integer|Surfline spot id.
+resources|string|Any combination of "analysis,confidence,hireswind,hvp,quickspot,sort,surf,surflineweather,tide,ureport,watertemp,weather,wind". "Sort" gives an array of swells, periods & heights that are used for the forecast tables on spot forecast pages [e.g. El Porto](https://www.surfline.com/surf-report/el-porto/5842041f4e65fad6a7708906/forecast). (When resource is set to `all`, you get `analysisconfidencehvpsortsurftidewatertempweatherwind`. Or, when unspecified, Default: `analysischartconfidencehireswindhvpquickspotsortsurfsurflineweathertideureportwatertempweatherwind`)
+days|integer|Number of days of forecast to get. This seems to cap out at 16 for Wind and 25 for Surf. (Credit source) (Default: `17`)
+units|string|`e` uses American units (ft/mi), `m` uses metric (Default: `e`)
+showOptimal|boolean|Includes arrays of doubles (0-1) indicating whether each wind & swell forecast is optimal for this spot or not. Included in the Sort and Wind JSON object. (Default: `false`)
+interpolate|boolean|`true` interpolates "forecasts" into every 3 hours instead of the default every 6. (Default: `false`)
+fullAnalysis|boolean|`true` adds--if exists--fields like `brief_outlook`, `best_bet`, and `extended_outlook` to the Analysis JSON object. Doesn't work for all queries. (Default: `false`)
+usenearshore|boolean|Set to `true` to use the [more accurate nearshore models](http://www.surfline.com/surf-science/what-is-lola---forecaster-blog_61031/) that take into account how each spot's unique bathymetry affects the incoming swells. (Credit source) (Deafult: `false`)
+aggregate|boolean|`true` enables aggregate fields for the Surf resource. Doesn't work for all queries. (Default: `false`)
+getAllSpots|boolean|`true` returns an array of data for all spots in the same region as `spot_id` (Default: `false`)
+callback|string|Callback function name
 
-## Changelog
-
-Detailed changes for each release are documented in the [changelog](https://cnvs.readme.io/docs/changelog).
-
-## License
-
-Canvas is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+There seems to be three more parameters that I have yet to discover. One is boolean, one is integer, and one is string/character. All I know is their default values are `false`, `1`, and `e`, respectively.

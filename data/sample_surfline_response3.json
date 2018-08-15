@@ -900,8 +900,7 @@ http://services.surfline.com/kbyg/regions/overview?subregionId=58581a836630e24c4
     }
 }
 
-KBYG Subregional Forecasts
-MapBounds might be useful
+KBYG Subregional Forecasts:
 http://services.surfline.com/kbyg/regions/forecasts?subregionId=58581a836630e24c4487900b
 
 {
@@ -10295,7 +10294,7 @@ http://services.surfline.com/kbyg/mapview?south=33.667782574792184&west=-118.569
     }
 }
 
-KBYG Spot Forecasts
+KBYG Spot Forecasts:
 http://services.surfline.com/kbyg/spots/forecasts?spotId=5842041f4e65fad6a7708906&days=1
 
 {

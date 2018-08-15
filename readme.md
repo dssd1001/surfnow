@@ -1,5 +1,17 @@
 # SurfNow
 
+- [** Purpose **](#purpose)
+- [** Algorithm **](#algorithm)
+- [** Data Sources **](#data-sources)
+    - [NOAA](#1.-noaa)
+    - [Surfline](#2.-surfline)
+        - [New API](#new-api)
+            - [Taxonomy ](#taxonomy)
+            - [KBYG (Know Before You Go) ](#kbyg)
+        - [Legacy API](#legacy-api)
+            - [Forecasts](#forecasts)
+            - [Mobile](#mobile)
+
 ## Purpose
 
 To tell where to surf NOW
@@ -20,11 +32,58 @@ tbd
 It seems [Surfline](surfline.com) recently did a sleek and modern redesign of its website. My guess is that, in the process, they also overhauled their API. But instead of calling the new API `v2`, they changed the base url. The new API is still undocumented, but I'd say it returns cleaner JSON documents for developers to use and understand. Here's how to access both APIs:
 
 #### New API
-The New API uses the following request structure: `http://api.surfline.com/v1/{type}/{spot_id}?{params}`
+The New API uses the following request structure: `http://services.surfline.com/{type}?{params}`
 
 ###### Taxonomy
 
-###### KBYG (Know Before You Go)
+Available querystring params:
+
+Param|Values|Effect
+-----|------|------
+type|string|Possible values are: `taxonomy`,`geoname`,`region`,`subregion`, and `spot`.
+id|string|Surfline's hashed ID based on the type. E.g. if you picked `spot`, supply the spot ID.
+maxDepth|integer|Depth of the returned taxonomy JSON
+
+Example calls:
+```
+Earth: http://services.surfline.com/taxonomy?type=taxonomy&id=58f7ed51dadb30820bb38782&maxDepth=0
+
+South Los Angeles: http://services.surfline.com/taxonomy?type=subregion&id=58581a836630e24c4487900b
+
+El Porto Beach: http://services.surfline.com/taxonomy?type=spot&id=5842041f4e65fad6a7708906
+```
+###### KBYG
+
+KBYG Subregional Overview:
+`http://services.surfline.com/kbyg/regions/overview?subregionId=58581a836630e24c4487900b`
+
+KBYG Subregional Forecasts:
+`http://services.surfline.com/kbyg/regions/forecasts?subregionId=58581a836630e24c4487900b`
+
+KBYG Regional Analyses:
+`http://services.surfline.com/feed/regional?subregionId=58581a836630e24c4487900b`
+
+KBYG Mapview Spots:
+`http://services.surfline.com/kbyg/mapview?south=33.667782574792184&west=-118.56994628906251&north=34.028762179464465&east=-118.04054260253908`
+
+KBYG Spot Forecasts:
+`http://services.surfline.com/kbyg/spots/forecasts?spotId=5842041f4e65fad6a7708906&days=1`
+
+KBYG Conditions:
+`http://services.surfline.com/kbyg/spots/forecasts/conditions?spotId=5842041f4e65fad6a7708906&days=6`
+
+KBYG Tides:
+`http://services.surfline.com/kbyg/spots/forecasts/tides?spotId=5842041f4e65fad6a7708906&days=1`
+
+KBYG Waves:
+`http://services.surfline.com/kbyg/spots/forecasts/wave?spotId=5842041f4e65fad6a7708906&days=1&intervalHours=1`
+
+KBYG Weather:
+`http://services.surfline.com/kbyg/spots/forecasts/weather?spotId=5842041f4e65fad6a7708906&days=1&intervalHours=1`
+
+KBYG Wind:
+`http://services.surfline.com/kbyg/spots/forecasts/wind?spotId=5842041f4e65fad6a7708906&days=1&intervalHours=1`
+
 
 #### Legacy API
 The legacy API uses the following request structure: `http://api.surfline.com/v1/{type}/{spot_id}?{params}`

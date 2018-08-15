@@ -4,14 +4,32 @@
 
 To tell where to surf NOW
 
+## Algorithm
+
+tbd
+
 ## Data Sources
 
-#### NOAA
+### 1. NOAA
 
 [NOAA.gov](noaa.gov)
 
-#### SURFLINE
-Request structure: `http://api.surfline.com/v1/forecasts/<spot_id>?params`
+
+### 2. SURFLINE
+
+It seems [Surfline](surfline.com) recently did a sleek and modern redesign of its website. My guess is that, in the process, they also overhauled their API. But instead of calling the new API `v2`, they changed the base url. The new API is still undocumented, but I'd say it returns cleaner JSON documents for developers to use and understand. Here's how to access both APIs:
+
+#### New API
+The New API uses the following request structure: `http://api.surfline.com/v1/{type}/{spot_id}?{params}`
+
+###### Taxonomy
+
+###### KBYG (Know Before You Go)
+
+#### Legacy API
+The legacy API uses the following request structure: `http://api.surfline.com/v1/{type}/{spot_id}?{params}`
+
+###### Forecasts
 
 Available querystring params:
 
@@ -30,3 +48,11 @@ getAllSpots|boolean|`true` returns an array of data for all spots in the same re
 callback|string|Callback function name
 
 There seems to be three more parameters that I have yet to discover. One is boolean, one is integer, and one is string/character. All I know is their default values are `false`, `1`, and `e`, respectively.
+
+###### Mobile
+Example API calls found by snooping around:
+```
+https://api.surfline.com/v1/mobile/report/4900
+
+https://api.surfline.com/v1/mobile/nearby/4900?resources=buoy&unit=FT
+```

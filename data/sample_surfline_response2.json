@@ -1,0 +1,1619 @@
+Taxonomy API
+
+http://services.surfline.com/taxonomy?type=taxonomy&id=58f7ed51dadb30820bb38782&maxDepth=10
+
+5. World: id=58f7ed51dadb30820bb38782 (type=geoname) (geoname_id=6295630)
+4. NA: id=58f7ed51dadb30820bb38791 (type=geoname) (geoname_id=6255149)
+3. USA: id=58f7ed51dadb30820bb3879c (type=geoname) (geoname_id=6252001)
+2. CA: id=58f7ed51dadb30820bb387a6 (type=geoname) (geoname_id=5332921)
+2. LA County: id=58f7ed5bdadb30820bb393cd (type=geoname) (geoname_id=5368381)
+1. Manhattan Beach: id=58f7edb0dadb30820bb3ee98 (type=geoname) (geoname_id=5370082)
+
+2. SoCal: id=5908c46bdadb30820b23c1f3 (type=region) (region_id=5908c45e6a2e4300134fbe92)
+1. South LA: id=58f7ed5cdadb30820bb394fe (type=subregion) (subregion_id=58581a836630e24c4487900b)
+
+0. El Porto: id=58f7edb0dadb30820bb3eea7 (type=spot) (spot_id=5842041f4e65fad6a7708906)
+
+
+http://services.surfline.com/taxonomy?type=subregion&id=58581a836630e24c4487900b
+
+{
+    "_id": "58f7ed5cdadb30820bb394fe",
+    "associated": {
+        "links": [
+            {
+                "href": "http://spots-api.surfline.com/taxonomy?id=58581a836630e24c4487900b&type=subregion",
+                "key": "taxonomy"
+            },
+            {
+                "href": "http://spots-api.surfline.com/admin/subregions/58581a836630e24c4487900b",
+                "key": "api"
+            },
+            {
+                "href": "https://www.surfline.com/surf-forecasts/south-los-angeles/58581a836630e24c4487900b",
+                "key": "www"
+            }
+        ]
+    },
+    "category": "surfline",
+    "contains": [
+        {
+            "_id": "58f80abbdadb30820bd150e3",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=584204214e65fad6a7709d24&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/584204214e65fad6a7709d24",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/el-porto-north/584204214e65fad6a7709d24",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb0dadb30820bb3ee98",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4231436252594",
+                    "33.90362759385167"
+                ],
+                "type": "Point"
+            },
+            "name": "El Porto North",
+            "spot": "584204214e65fad6a7709d24",
+            "type": "spot"
+        },
+        {
+            "_id": "5b17293c045e2e208232a399",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5b17293b9f631f001a010d54&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5b17293b9f631f001a010d54",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/hermosa-pier-southside/5b17293b9f631f001a010d54",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "58f7edafdadb30820bb3edaa",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.40446791677738",
+                    "33.86003711966244"
+                ],
+                "type": "Point"
+            },
+            "name": "Hermosa Pier Southside",
+            "spot": "5b17293b9f631f001a010d54",
+            "type": "spot"
+        },
+        {
+            "_id": "5af21e4c680bd111e318610e",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5af21e4c8a1a07001a4531dc&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5af21e4c8a1a07001a4531dc",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/santa-monica-beach-south/5af21e4c8a1a07001a4531dc",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "58f7edaddadb30820bb3eabb",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.49117742697615",
+                    "34.00126481191565"
+                ],
+                "type": "Point"
+            },
+            "name": "Santa Monica Beach South",
+            "spot": "5af21e4c8a1a07001a4531dc",
+            "type": "spot"
+        },
+        {
+            "_id": "5af21bc9680bd111e316329d",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5af21bc9177e44001a8cc60b&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5af21bc9177e44001a8cc60b",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/santa-monica-beach-north/5af21bc9177e44001a8cc60b",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "58f7edaddadb30820bb3eabb",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.50755773528988",
+                    "34.012794079166625"
+                ],
+                "type": "Point"
+            },
+            "name": "Santa Monica Beach North",
+            "spot": "5af21bc9177e44001a8cc60b",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edb0dadb30820bb3edb4",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708904&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708904",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/hermosa-beach/5842041f4e65fad6a7708904",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edafdadb30820bb3edaa",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4075151286262",
+                    "33.87201368173932"
+                ],
+                "type": "Point"
+            },
+            "name": "Hermosa Beach",
+            "spot": "5842041f4e65fad6a7708904",
+            "type": "spot"
+        },
+        {
+            "_id": "59092757dadb30820b9898a2",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=590927576a2e4300134fbed8&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/590927576a2e4300134fbed8",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/venice-breakwater/590927576a2e4300134fbed8",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                null,
+                "58f7ed5cdadb30820bb394fe",
+                "5a05f5aa9e1888001aa344cb"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.47532868385315",
+                    "33.98549354391774"
+                ],
+                "type": "Point"
+            },
+            "name": "Venice Breakwater",
+            "spot": "590927576a2e4300134fbed8",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edb0dadb30820bb3eea7",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708906&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708906",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/el-porto/5842041f4e65fad6a7708906",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb0dadb30820bb3ee98",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4208669620573",
+                    "33.89859255329511"
+                ],
+                "type": "Point"
+            },
+            "name": "El Porto",
+            "spot": "5842041f4e65fad6a7708906",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edb2dadb30820bb3f140",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708920&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708920",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/haggerty-s/5842041f4e65fad6a7708920",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb2dadb30820bb3f12f",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.3933198342649",
+                    "33.80930828074364"
+                ],
+                "type": "Point"
+            },
+            "name": "Haggerty's",
+            "spot": "5842041f4e65fad6a7708920",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edaddadb30820bb3eac8",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a77088f7&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a77088f7",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/santa-monica-pier/5842041f4e65fad6a77088f7",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edaddadb30820bb3eabb",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4971783496269",
+                    "34.00750300824362"
+                ],
+                "type": "Point"
+            },
+            "name": "Santa Monica Pier",
+            "spot": "5842041f4e65fad6a77088f7",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edaedadb30820bb3ebc2",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a77088ff&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a77088ff",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/dockweiler-state-beach/5842041f4e65fad6a77088ff",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edaedadb30820bb3ebb3",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4432093411572",
+                    "33.94070283102945"
+                ],
+                "type": "Point"
+            },
+            "name": "Dockweiler State Beach",
+            "spot": "5842041f4e65fad6a77088ff",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edb1dadb30820bb3ef78",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708907&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708907",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/manhattan-pier-southside/5842041f4e65fad6a7708907",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb0dadb30820bb3ee98",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4110175106966",
+                    "33.87963506431794"
+                ],
+                "type": "Point"
+            },
+            "name": "Manhattan Pier, Southside",
+            "spot": "5842041f4e65fad6a7708907",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edb5dadb30820bb3f55f",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a770892d&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a770892d",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/pv-cove/5842041f4e65fad6a770892d",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb2dadb30820bb3f12f",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4070316699825",
+                    "33.79294656286144"
+                ],
+                "type": "Point"
+            },
+            "name": "PV Cove",
+            "spot": "5842041f4e65fad6a770892d",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edb3dadb30820bb3f228",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708921&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708921",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/redondo-breakwater/5842041f4e65fad6a7708921",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb3dadb30820bb3f213",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4004837749971",
+                    "33.85044519861206"
+                ],
+                "type": "Point"
+            },
+            "name": "Redondo Breakwater",
+            "spot": "5842041f4e65fad6a7708921",
+            "type": "spot"
+        },
+        {
+            "_id": "5b17281e045e2e208231c6f2",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5b17281e4a274e001a11fcc3&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5b17281e4a274e001a11fcc3",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/hermosa-pier-northside/5b17281e4a274e001a11fcc3",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "58f7edafdadb30820bb3edaa",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.406488743804",
+                    "33.863543271422984"
+                ],
+                "type": "Point"
+            },
+            "name": "Hermosa Pier Northside",
+            "spot": "5b17281e4a274e001a11fcc3",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edafdadb30820bb3eca0",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708900&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708900",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/shitpipe/5842041f4e65fad6a7708900",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edaedadb30820bb3ebb3",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4341465777908",
+                    "33.9231846937237"
+                ],
+                "type": "Point"
+            },
+            "name": "Shitpipe",
+            "spot": "5842041f4e65fad6a7708900",
+            "type": "spot"
+        },
+        {
+            "_id": "5acd2495e6af82b6652c0b6b",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5acd24954031e5001a13854a&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5acd24954031e5001a13854a",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/manhattan-pier-northside/5acd24954031e5001a13854a",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "58f7edb0dadb30820bb3ee98",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.41369095343128",
+                    "33.884116597904075"
+                ],
+                "type": "Point"
+            },
+            "name": "Manhattan Pier Northside",
+            "spot": "5acd24954031e5001a13854a",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7ed5cdadb30820bb394ef",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708819&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708819",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/venice-beach/5842041f4e65fad6a7708819",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7ed5cdadb30820bb394fe",
+                "5a05f5aa9e1888001aa344cb"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.47381591796875",
+                    "33.984079047970035"
+                ],
+                "type": "Point"
+            },
+            "name": "Venice Beach",
+            "spot": "5842041f4e65fad6a7708819",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edb5dadb30820bb3f430",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a770892c&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a770892c",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/lunada-bay/5842041f4e65fad6a770892c",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb2dadb30820bb3f12f",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4268428476672",
+                    "33.77209986806257"
+                ],
+                "type": "Point"
+            },
+            "name": "Lunada Bay",
+            "spot": "5842041f4e65fad6a770892c",
+            "type": "spot"
+        },
+        {
+            "_id": "58f80aa8dadb30820bd13b76",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=584204214e65fad6a7709d0b&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/584204214e65fad6a7709d0b",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/sapphire-st-/584204214e65fad6a7709d0b",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb3dadb30820bb3f213",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    -118.392033,
+                    33.832669
+                ],
+                "type": "Point"
+            },
+            "name": "Sapphire St.",
+            "spot": "584204214e65fad6a7709d0b",
+            "type": "spot"
+        },
+        {
+            "_id": "5acd238fe6af82b6652b0e88",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5acd238f45d052001ad0b2bd&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5acd238f45d052001ad0b2bd",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/venice-southside-overview/5acd238f45d052001ad0b2bd",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "5a05f5aa9e1888001aa344cb",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.4668173983037",
+                    "33.976274308822646"
+                ],
+                "type": "Point"
+            },
+            "name": "Venice Southside Overview",
+            "spot": "5acd238f45d052001ad0b2bd",
+            "type": "spot"
+        },
+        {
+            "_id": "58f7edb4dadb30820bb3f392",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708927&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708927",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/cabrillo-beach/5842041f4e65fad6a7708927",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": false,
+            "liesIn": [
+                "58f7edb4dadb30820bb3f38a",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.2840112858389",
+                    "33.70877301002487"
+                ],
+                "type": "Point"
+            },
+            "name": "Cabrillo Beach",
+            "spot": "5842041f4e65fad6a7708927",
+            "type": "spot"
+        },
+        {
+            "_id": "5a25e40963e0669446b0c0ca",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5a25e409aa1aea001b27be39&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5a25e409aa1aea001b27be39",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/el-porto-close-up/5a25e409aa1aea001b27be39",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "58f7edb0dadb30820bb3ee98",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.42184543609619",
+                    "33.90319126307938"
+                ],
+                "type": "Point"
+            },
+            "name": "El Porto Close-up",
+            "spot": "5a25e409aa1aea001b27be39",
+            "type": "spot"
+        },
+        {
+            "_id": "5af211c8680bd111e30e0ba3",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5af211c8bb6fd9001a25054a&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5af211c8bb6fd9001a25054a",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/torrance-beach/5af211c8bb6fd9001a25054a",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "58f7edb2dadb30820bb3f12f",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.39274446746322",
+                    "33.81120874378085"
+                ],
+                "type": "Point"
+            },
+            "name": "Torrance Beach",
+            "spot": "5af211c8bb6fd9001a25054a",
+            "type": "spot"
+        },
+        {
+            "_id": "5a26de8c63e06694463b18b0",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5a26de8ccbecc0001bb480c9&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5a26de8ccbecc0001bb480c9",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/venice-beach-close-up/5a26de8ccbecc0001bb480c9",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "5a05f5aa9e1888001aa344cb",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.47410559654236",
+                    "33.98486191656073"
+                ],
+                "type": "Point"
+            },
+            "name": "Venice Beach Close-up",
+            "spot": "5a26de8ccbecc0001bb480c9",
+            "type": "spot"
+        },
+        {
+            "_id": "5accf274e6af82b665fc274e",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5accf274bd428f001ad70a33&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5accf274bd428f001ad70a33",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/venice-pier-northside/5accf274bd428f001ad70a33",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "5a05f5aa9e1888001aa344cb",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.46967699503296",
+                    "33.97858429549871"
+                ],
+                "type": "Point"
+            },
+            "name": "Venice Pier, Northside",
+            "spot": "5accf274bd428f001ad70a33",
+            "type": "spot"
+        },
+        {
+            "_id": "5accf279e6af82b665fc2c6e",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5accf279bd428f001ad70a34&type=spot",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/spots/5accf279bd428f001ad70a34",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-report/venice-pier-southside/5accf279bd428f001ad70a34",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 0,
+            "hasSpots": true,
+            "liesIn": [
+                "5a05f5aa9e1888001aa344cb",
+                "58f7ed5cdadb30820bb394fe"
+            ],
+            "location": {
+                "coordinates": [
+                    "-118.46794972246397",
+                    "33.97707210574929"
+                ],
+                "type": "Point"
+            },
+            "name": "Venice Pier, Southside",
+            "spot": "5accf279bd428f001ad70a34",
+            "type": "spot"
+        }
+    ],
+    "hasSpots": true,
+    "in": [
+        {
+            "_id": "58f7ed51dadb30820bb38782",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=6295630&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    null,
+                    null
+                ]
+            },
+            "category": "geonames",
+            "depth": 4,
+            "enumeratedPath": ",Earth",
+            "geonameId": 6295630,
+            "geonames": {
+                "adminName1": "",
+                "fcl": "L",
+                "fclName": "parks,area, ...",
+                "fcode": "AREA",
+                "fcodeName": "area",
+                "geonameId": 6295630,
+                "lat": "0",
+                "lng": "0",
+                "name": "Earth",
+                "population": 6814400000,
+                "toponymName": "Earth"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                null
+            ],
+            "location": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            },
+            "name": "Earth",
+            "type": "geoname"
+        },
+        {
+            "_id": "58f7ed51dadb30820bb38791",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=6255149&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    null,
+                    null
+                ]
+            },
+            "category": "geonames",
+            "depth": 3,
+            "enumeratedPath": ",Earth,North America",
+            "geonameId": 6255149,
+            "geonames": {
+                "adminName1": "",
+                "fcl": "L",
+                "fclName": "parks,area, ...",
+                "fcode": "CONT",
+                "fcodeName": "continent",
+                "geonameId": 6255149,
+                "lat": "46.07323",
+                "lng": "-100.54688",
+                "name": "North America",
+                "population": 0,
+                "toponymName": "North America"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                "58f7ed51dadb30820bb38782"
+            ],
+            "location": {
+                "coordinates": [
+                    -100.54688,
+                    46.07323
+                ],
+                "type": "Point"
+            },
+            "name": "North America",
+            "type": "geoname"
+        },
+        {
+            "_id": "58f7ed51dadb30820bb3879c",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=6252001&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/6252001",
+                        "key": "www"
+                    },
+                    {
+                        "href": "https://www.surfline.com/travel/united-states-surfing-and-beaches/6252001",
+                        "key": "travel"
+                    }
+                ]
+            },
+            "category": "geonames",
+            "depth": 2,
+            "enumeratedPath": ",Earth,North America,United States",
+            "geonameId": 6252001,
+            "geonames": {
+                "adminCode1": "00",
+                "adminName1": "",
+                "countryCode": "US",
+                "countryId": "6252001",
+                "countryName": "United States",
+                "fcl": "A",
+                "fclName": "country, state, region,...",
+                "fcode": "PCLI",
+                "fcodeName": "independent political entity",
+                "geonameId": 6252001,
+                "lat": "39.76",
+                "lng": "-98.5",
+                "name": "United States",
+                "population": 310232863,
+                "toponymName": "United States"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "location": {
+                "coordinates": [
+                    -98.5,
+                    39.76
+                ],
+                "type": "Point"
+            },
+            "name": "United States",
+            "type": "geoname"
+        },
+        {
+            "_id": "5908c46bdadb30820b23c1f3",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5908c45e6a2e4300134fbe92&type=region",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/regions/5908c45e6a2e4300134fbe92",
+                        "key": "api"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 1,
+            "hasSpots": true,
+            "location": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            },
+            "name": "Southern California",
+            "region": "5908c45e6a2e4300134fbe92",
+            "type": "region"
+        },
+        {
+            "_id": "58f7ed51dadb30820bb387a6",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5332921&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/5332921",
+                        "key": "www"
+                    },
+                    {
+                        "href": "https://www.surfline.com/travel/united-states/california-surfing-and-beaches/5332921",
+                        "key": "travel"
+                    }
+                ]
+            },
+            "category": "geonames",
+            "depth": 1,
+            "enumeratedPath": ",Earth,North America,United States,California",
+            "geonameId": 5332921,
+            "geonames": {
+                "adminCode1": "CA",
+                "adminName1": "California",
+                "countryCode": "US",
+                "countryId": "6252001",
+                "countryName": "United States",
+                "fcl": "A",
+                "fclName": "country, state, region,...",
+                "fcode": "ADM1",
+                "fcodeName": "first-order administrative division",
+                "geonameId": 5332921,
+                "lat": "37.25022",
+                "lng": "-119.75126",
+                "name": "California",
+                "population": 37691912,
+                "toponymName": "California"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                "58f7ed51dadb30820bb3879c"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.75126,
+                    37.25022
+                ],
+                "type": "Point"
+            },
+            "name": "California",
+            "type": "geoname"
+        }
+    ],
+    "liesIn": [
+        "5908c46bdadb30820b23c1f3",
+        "58f7ed51dadb30820bb387a6"
+    ],
+    "location": {
+        "coordinates": [
+            0,
+            0
+        ],
+        "type": "Point"
+    },
+    "name": "South Los Angeles",
+    "subregion": "58581a836630e24c4487900b",
+    "type": "subregion"
+}
+
+http://services.surfline.com/taxonomy?type=spot&id=5842041f4e65fad6a7708906
+
+{
+    "_id": "58f7edb0dadb30820bb3eea7",
+    "associated": {
+        "links": [
+            {
+                "href": "http://spots-api.surfline.com/taxonomy?id=5842041f4e65fad6a7708906&type=spot",
+                "key": "taxonomy"
+            },
+            {
+                "href": "http://spots-api.surfline.com/admin/spots/5842041f4e65fad6a7708906",
+                "key": "api"
+            },
+            {
+                "href": "https://www.surfline.com/surf-report/el-porto/5842041f4e65fad6a7708906",
+                "key": "www"
+            }
+        ]
+    },
+    "category": "surfline",
+    "contains": [
+    ],
+    "hasSpots": false,
+    "in": [
+        {
+            "_id": "58f7ed51dadb30820bb38782",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=6295630&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    null,
+                    null
+                ]
+            },
+            "category": "geonames",
+            "depth": 5,
+            "enumeratedPath": ",Earth",
+            "geonameId": 6295630,
+            "geonames": {
+                "adminName1": "",
+                "fcl": "L",
+                "fclName": "parks,area, ...",
+                "fcode": "AREA",
+                "fcodeName": "area",
+                "geonameId": 6295630,
+                "lat": "0",
+                "lng": "0",
+                "name": "Earth",
+                "population": 6814400000,
+                "toponymName": "Earth"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                null
+            ],
+            "location": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            },
+            "name": "Earth",
+            "type": "geoname"
+        },
+        {
+            "_id": "58f7ed51dadb30820bb38791",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=6255149&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    null,
+                    null
+                ]
+            },
+            "category": "geonames",
+            "depth": 4,
+            "enumeratedPath": ",Earth,North America",
+            "geonameId": 6255149,
+            "geonames": {
+                "adminName1": "",
+                "fcl": "L",
+                "fclName": "parks,area, ...",
+                "fcode": "CONT",
+                "fcodeName": "continent",
+                "geonameId": 6255149,
+                "lat": "46.07323",
+                "lng": "-100.54688",
+                "name": "North America",
+                "population": 0,
+                "toponymName": "North America"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                "58f7ed51dadb30820bb38782"
+            ],
+            "location": {
+                "coordinates": [
+                    -100.54688,
+                    46.07323
+                ],
+                "type": "Point"
+            },
+            "name": "North America",
+            "type": "geoname"
+        },
+        {
+            "_id": "58f7ed51dadb30820bb3879c",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=6252001&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/6252001",
+                        "key": "www"
+                    },
+                    {
+                        "href": "https://www.surfline.com/travel/united-states-surfing-and-beaches/6252001",
+                        "key": "travel"
+                    }
+                ]
+            },
+            "category": "geonames",
+            "depth": 3,
+            "enumeratedPath": ",Earth,North America,United States",
+            "geonameId": 6252001,
+            "geonames": {
+                "adminCode1": "00",
+                "adminName1": "",
+                "countryCode": "US",
+                "countryId": "6252001",
+                "countryName": "United States",
+                "fcl": "A",
+                "fclName": "country, state, region,...",
+                "fcode": "PCLI",
+                "fcodeName": "independent political entity",
+                "geonameId": 6252001,
+                "lat": "39.76",
+                "lng": "-98.5",
+                "name": "United States",
+                "population": 310232863,
+                "toponymName": "United States"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                "58f7ed51dadb30820bb38791"
+            ],
+            "location": {
+                "coordinates": [
+                    -98.5,
+                    39.76
+                ],
+                "type": "Point"
+            },
+            "name": "United States",
+            "type": "geoname"
+        },
+        {
+            "_id": "58f7ed5bdadb30820bb393cd",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5368381&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/los-angeles-county/5368381",
+                        "key": "www"
+                    },
+                    {
+                        "href": "https://www.surfline.com/travel/united-states/california/los-angeles-county-surfing-and-beaches/5368381",
+                        "key": "travel"
+                    }
+                ]
+            },
+            "category": "geonames",
+            "depth": 2,
+            "enumeratedPath": ",Earth,North America,United States,California,Los Angeles County",
+            "geonameId": 5368381,
+            "geonames": {
+                "adminCode1": "CA",
+                "adminName1": "California",
+                "countryCode": "US",
+                "countryId": "6252001",
+                "countryName": "United States",
+                "fcl": "A",
+                "fclName": "country, state, region,...",
+                "fcode": "ADM2",
+                "fcodeName": "second-order administrative division",
+                "geonameId": 5368381,
+                "lat": "34.19801",
+                "lng": "-118.26102",
+                "name": "Los Angeles County",
+                "population": 9818605,
+                "toponymName": "Los Angeles County"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                "58f7ed51dadb30820bb387a6"
+            ],
+            "location": {
+                "coordinates": [
+                    -118.26102,
+                    34.19801
+                ],
+                "type": "Point"
+            },
+            "name": "Los Angeles County",
+            "type": "geoname"
+        },
+        {
+            "_id": "58f7ed51dadb30820bb387a6",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5332921&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/5332921",
+                        "key": "www"
+                    },
+                    {
+                        "href": "https://www.surfline.com/travel/united-states/california-surfing-and-beaches/5332921",
+                        "key": "travel"
+                    }
+                ]
+            },
+            "category": "geonames",
+            "depth": 2,
+            "enumeratedPath": ",Earth,North America,United States,California",
+            "geonameId": 5332921,
+            "geonames": {
+                "adminCode1": "CA",
+                "adminName1": "California",
+                "countryCode": "US",
+                "countryId": "6252001",
+                "countryName": "United States",
+                "fcl": "A",
+                "fclName": "country, state, region,...",
+                "fcode": "ADM1",
+                "fcodeName": "first-order administrative division",
+                "geonameId": 5332921,
+                "lat": "37.25022",
+                "lng": "-119.75126",
+                "name": "California",
+                "population": 37691912,
+                "toponymName": "California"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                "58f7ed51dadb30820bb3879c"
+            ],
+            "location": {
+                "coordinates": [
+                    -119.75126,
+                    37.25022
+                ],
+                "type": "Point"
+            },
+            "name": "California",
+            "type": "geoname"
+        },
+        {
+            "_id": "5908c46bdadb30820b23c1f3",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5908c45e6a2e4300134fbe92&type=region",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/regions/5908c45e6a2e4300134fbe92",
+                        "key": "api"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 2,
+            "hasSpots": true,
+            "location": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            },
+            "name": "Southern California",
+            "region": "5908c45e6a2e4300134fbe92",
+            "type": "region"
+        },
+        {
+            "_id": "58f7edb0dadb30820bb3ee98",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=5370082&type=geoname",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/los-angeles-county/manhattan-beach/5370082",
+                        "key": "www"
+                    },
+                    {
+                        "href": "https://www.surfline.com/travel/united-states/california/los-angeles-county/manhattan-beach-surfing-and-beaches/5370082",
+                        "key": "travel"
+                    }
+                ]
+            },
+            "category": "geonames",
+            "depth": 1,
+            "enumeratedPath": ",Earth,North America,United States,California,Los Angeles County,Manhattan Beach",
+            "geonameId": 5370082,
+            "geonames": {
+                "adminCode1": "CA",
+                "adminName1": "California",
+                "countryCode": "US",
+                "countryId": "6252001",
+                "countryName": "United States",
+                "fcl": "P",
+                "fclName": "city, village,...",
+                "fcode": "PPL",
+                "fcodeName": "populated place",
+                "geonameId": 5370082,
+                "lat": "33.88474",
+                "lng": "-118.41091",
+                "name": "Manhattan Beach",
+                "population": 35818,
+                "toponymName": "Manhattan Beach"
+            },
+            "hasSpots": true,
+            "liesIn": [
+                "58f7ed5bdadb30820bb393cd"
+            ],
+            "location": {
+                "coordinates": [
+                    -118.41091,
+                    33.88474
+                ],
+                "type": "Point"
+            },
+            "name": "Manhattan Beach",
+            "type": "geoname"
+        },
+        {
+            "_id": "58f7ed5cdadb30820bb394fe",
+            "associated": {
+                "links": [
+                    {
+                        "href": "http://spots-api.surfline.com/taxonomy?id=58581a836630e24c4487900b&type=subregion",
+                        "key": "taxonomy"
+                    },
+                    {
+                        "href": "http://spots-api.surfline.com/admin/subregions/58581a836630e24c4487900b",
+                        "key": "api"
+                    },
+                    {
+                        "href": "https://www.surfline.com/surf-forecasts/south-los-angeles/58581a836630e24c4487900b",
+                        "key": "www"
+                    }
+                ]
+            },
+            "category": "surfline",
+            "depth": 1,
+            "hasSpots": true,
+            "liesIn": [
+                "5908c46bdadb30820b23c1f3",
+                "58f7ed51dadb30820bb387a6"
+            ],
+            "location": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            },
+            "name": "South Los Angeles",
+            "subregion": "58581a836630e24c4487900b",
+            "type": "subregion"
+        }
+    ],
+    "liesIn": [
+        "58f7edb0dadb30820bb3ee98",
+        "58f7ed5cdadb30820bb394fe"
+    ],
+    "location": {
+        "coordinates": [
+            "-118.4208669620573",
+            "33.89859255329511"
+        ],
+        "type": "Point"
+    },
+    "name": "El Porto",
+    "spot": "5842041f4e65fad6a7708906",
+    "type": "spot"
+}

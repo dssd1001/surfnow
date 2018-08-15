@@ -15247,3 +15247,7 @@ http://api.surfline.com/v1/forecasts/4900?showOptimal=true&interpolate=true&full
     "timeZoneString": "America/Los_Angeles",
     "timezone": -7
 }
+
+https://api.surfline.com/v1/mobile/report/4900
+
+https://api.surfline.com/v1/mobile/nearby/4900?resources=buoy&unit=FT

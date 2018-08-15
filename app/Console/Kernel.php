@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        Commands\AddSupportByGeography::class,
+        Commands\PopulateSurfspotsWithMetadata::class
     ];
 
     /**

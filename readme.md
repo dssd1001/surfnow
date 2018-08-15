@@ -1,10 +1,10 @@
 # SurfNow
 
-- [** Purpose **](#purpose)
-- [** Algorithm **](#algorithm)
-- [** Data Sources **](#data-sources)
-    - [NOAA](#1.-noaa)
-    - [Surfline](#2.-surfline)
+- [**Purpose**](#purpose)
+- [**Algorithm**](#algorithm)
+- [**Data Sources**](#data-sources)
+    - [NOAA](#noaa)
+    - [Surfline](#surfline)
         - [New API](#new-api)
             - [Taxonomy ](#taxonomy)
             - [KBYG (Know Before You Go) ](#kbyg)
@@ -22,12 +22,12 @@ tbd
 
 ## Data Sources
 
-### 1. NOAA
+### NOAA
 
 [NOAA.gov](noaa.gov)
 
 
-### 2. SURFLINE
+### SURFLINE
 
 It seems [Surfline](surfline.com) recently did a sleek and modern redesign of its website. My guess is that, in the process, they also overhauled their API. But instead of calling the new API `v2`, they changed the base url. The new API is still undocumented, but I'd say it returns cleaner JSON documents for developers to use and understand. Here's how to access both APIs:
 

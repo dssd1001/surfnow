@@ -14,7 +14,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         Commands\AddSupportByGeography::class,
-        Commands\PopulateSurfspotsWithMetadata::class
+        Commands\PopulateSurfspotsWithMetadata::class,
+        Commands\PopulateSurfspotsWithIdealConditions::class
     ];
 
     /**

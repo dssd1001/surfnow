@@ -7,7 +7,7 @@
     - [Surfline](#surfline)
         - [New API](#new-api)
             - [Taxonomy ](#taxonomy)
-            - [KBYG (Know Before You Go) ](#kbyg)
+            - [KBYG (Know Before You Go) ](#kbyg-know-before-you-go)
         - [Legacy API](#legacy-api)
             - [Forecasts](#forecasts)
             - [Mobile](#mobile)
@@ -52,7 +52,7 @@ South Los Angeles: http://services.surfline.com/taxonomy?type=subregion&id=58581
 
 El Porto Beach: http://services.surfline.com/taxonomy?type=spot&id=5842041f4e65fad6a7708906
 ```
-###### KBYG
+###### KBYG (Know Before You Go)
 
 KBYG Subregional Overview:
 `http://services.surfline.com/kbyg/regions/overview?subregionId=58581a836630e24c4487900b`
